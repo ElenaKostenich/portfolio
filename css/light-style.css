@@ -1,0 +1,118 @@
+:root {
+    --color-gold: #bdae82;
+    --color-black: #000;
+    --color-matte-black: #1c1c1c;
+}
+a {
+    color: var(--color-matte-black);
+}
+body {
+    background-color: #fff;
+    color: var(--color-matte-black);
+}
+.button {
+    background: #fff;
+    border: 2px solid #fff;
+}
+.button:hover {
+    background: var(--color-matte-black);
+    border: 2px solid var(--color-matte-black);
+    color: var(--color-gold);
+}
+.title {
+    color: var(--color-matte-black);
+}
+.title-wrapper span {
+    background-color: var(--color-matte-black);
+}
+.header {
+    background-image: url(../assets/img/header-white-bg.jpg);
+}
+.logo-ico {
+    fill: var(--color-matte-black);
+}
+.header__lang_active {
+    color: #fff;
+}
+.burger__line {
+    background-color: var(--color-matte-black);
+}
+.light-theme,
+.dark-theme {
+    fill: var(--color-matte-black);
+}
+.hero {
+    background-image: url(../assets/img/header-white-bg.jpg);
+}
+.portfolio__button {
+    background: var(--color-gold);
+    border: 2px solid var(--color-gold);
+    color: var(--color-matte-black);
+}
+.portfolio__button:hover {
+    background: var(--color-gold);
+    border: 2px solid var(--color-gold);
+    color: #fff;
+}
+.button_active {
+    background: var(--color-matte-black);
+    color: var(--color-gold);
+}
+.button_active:hover {
+    background: var(--color-matte-black);
+    color: var(--color-gold);
+}
+.price__item-cost {
+    color: var(--color-matte-black);
+}
+.price__button {
+    background: var(--color-gold);
+    border: 2px solid var(--color-gold);
+}
+.contacts {
+    height: 700px;
+    background-image: url("../assets/img//contacts-white-bg.jpg");
+}
+.contacts__title {
+    color: var(--color-matte-black);
+}
+.contacts__input {
+    background: rgba(255, 255, 255, 0.5);
+    color: var(--color-matte-black);
+}
+.contacts__input::placeholder {
+    color: var(--color-matte-black);
+}
+.contacts__textarea {
+    background: rgba(255, 255, 255, 0.5);
+    color: var(--color-matte-black);
+}
+.contacts__textarea::placeholder {
+    color: var(--color-matte-black);
+}
+.github-link {
+    color: var(--color-matte-black);
+}
+.footer__rs a {
+    color: var(--color-matte-black);
+}
+.footer__social-item {
+    fill: var(--color-matte-black);
+}
+.footer__ico {
+    fill: var(--color-matte-black);
+}
+@media (max-width: 768px) {
+    .header {
+        background-image: url(../assets/img/header-white-bg-small.jpg);
+    }
+    .nav {
+        background-color: #fff;
+    }
+    .nav-overlay {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .hero {
+        background-image: url(../assets/img/header-white-bg-small.jpg);
+    }
+}

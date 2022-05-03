@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="assets/svg/fav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" title="theme" href="">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="logo">
+                    <a href="#">
+                        <svg class="logo-ico">
+                            <use xlink:href="assets/svg/sprite.svg#logo"></use>
+                        </svg>
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#skills" data-i18n='skills'>Skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#portfolio" data-i18n='portfolio'>Portfolio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#video" data-i18n='video'>Video</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#price" data-i18n='price'>Price</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#contacts" data-i18n='contacts'>Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav-overlay"></div>
+                <div class="header__lang">
+                    <a class="header__lang-en language header__lang_active" href="#">EN</a>
+                    <p>/</p>
+                    <a class="header__lang-ru language" href="#">RU</a>
+                </div>
+                <div class="theme">
+                    <svg class="light-theme">
+                        <use xlink:href="assets/svg/sprite.svg#sun"></use>
+                    </svg>
+                    <svg class="dark-theme hide">
+                        <use xlink:href="assets/svg/sprite.svg#moon"></use>
+                    </svg>
+                </div>
+                <div class="header__burger">
+                    <span class="burger__line first-line"></span>
+                    <span class="burger__line second-line"></span>
+                    <span class="burger__line third-line"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <h1 class="hero__title" data-i18n='hero-title'>Alexa Rise</h1>
+                    <p class="hero__descr" data-i18n='hero-text'>Save sincere emotions, romantic feelings and happy
+                        moments of life together with professional photographer Alexa Rise</p>
+                    <button class="hero__button button" data-i18n='hire'>Hire me</button>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <section class="skills" id="skills">
+                <div class="skills__title-wrapper title-wrapper">
+                    <span class="skills__title-line-left"></span>
+                    <h2 class="skills__title title" data-i18n='skills'>Skills</h2>
+                    <span class="skills__title-line-right"></span>
+                </div>
+                <div class="skills__wrapper">
+                    <div class="skills__item">
+                        <img src="assets/svg/camera-skills.svg" alt="Photography">
+                        <div class="skills__item-title" data-i18n='skill-title-1'>Digital photography</div>
+                        <div class="skills__item-descr" data-i18n='skill-text-1'>High-quality photos in the studio and
+                            on the nature</div>
+                    </div>
+                    <div class="skills__item">
+                        <img src="assets/svg/video-skills.svg" alt="Video">
+                        <div class="skills__item-title" data-i18n='skill-title-2'>Video shooting</div>
+                        <div class="skills__item-descr" data-i18n='skill-title-2'>Capture your moments so that they
+                            always stay with you</div>
+                    </div>
+                    <div class="skills__item">
+                        <img src="assets/svg/image-skills.svg" alt="Retouch">
+                        <div class="skills__item-title" data-i18n='skill-title-3'>Retouch</div>
+                        <div class="skills__item-descr" data-i18n='skill-title-3'>I strive to make photography surpass
+                            reality</div>
+                    </div>
+                    <div class="skills__item">
+                        <img src="assets/svg/mic-skills.svg" alt="Audio">
+                        <div class="skills__item-title" data-i18n='skill-title-4'>Audio</div>
+                        <div class="skills__item-descr" data-i18n='skill-title-4'>Professional sounds recording for
+                            video, advertising, portfolio
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio" id="portfolio">
+                <div class="portfolio__title-wrapper title-wrapper">
+                    <span class="portfolio__title-line-left"></span>
+                    <h2 class="portfolio__title title" data-i18n='portfolio'>Portfolio</h2>
+                    <span class="portfolio__title-line-right"></span>
+                </div>
+                <div class="portfolio__tabs">
+                    <button class="portfolio__button button" data-season="winter" data-i18n='winter'>Winter</button>
+                    <button class="portfolio__button button" data-season="spring" data-i18n='spring'>Spring</button>
+                    <button class="portfolio__button button" data-season="summer" data-i18n='summer'>Summer</button>
+                    <button class="portfolio__button button button_active" data-season="autumn"
+                        data-i18n='autumn'>Autumn</button>
+                </div>
+                <div class="portfolio__wrapper">
+                    <div class="portfolio__inner">
+                        <img class="portfolio__img" src="assets/img/autumn/1.jpg" alt="photo">
+                    </div>
+                    <div class="portfolio__inner">
+                        <img class="portfolio__img" src="assets/img/autumn/2.jpg" alt="photo">
+                    </div>
+
+                    <div class="portfolio__inner">
+                        <img class="portfolio__img" src="assets/img/autumn/3.jpg" alt="photo">
+                    </div>
+
+                    <div class="portfolio__inner">
+                        <img class="portfolio__img" src="assets/img/autumn/4.jpg" alt="photo">
+                    </div>
+
+                    <div class="portfolio__inner">
+                        <img class="portfolio__img" src="assets/img/autumn/5.jpg" alt="photo">
+                    </div>
+
+                    <div class="portfolio__inner">
+                        <img class="portfolio__img" src="assets/img/autumn/6.jpg" alt="photo">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="video" id="video">
+            <div class="video__title-wrapper title-wrapper">
+                <span></span>
+                <h2 class="video__title title" data-i18n='video'>Video</h2>
+                <span></span>
+            </div>
+            <div class="video__inner">
+                <div class="video__item">
+                    <div class="video__wrapper">
+                        <video class="video__player movie" src="assets/video/video.mp4"
+                            poster="assets/img/video-player.jpg" loop></video>
+
+                        <div class="video__controls">
+                            <button class="play__button-bottom">
+                                <img class="play" src="assets/svg/play.svg" alt="play">
+                            </button>
+                            <div class="progress">
+                                <progress class="progress__bar" max='100' value="0"></progress>
+                            </div>
+                            <button class="video__mute-btn">
+                                <img class="mute mute-btn" src="assets/svg/volume.svg" alt="volume">
+                                <img class="unmute mute-btn muted" src="assets/svg/mute.svg" alt="volume">
+                            </button>
+                            <input type="range" class="video__volume" min="0" max="100">
+                        </div>
+                        <button class="video__button play__button-center">
+                            <svg class="video__button-play">
+                                <use xlink:href="assets/svg/sprite.svg#Play-video"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <section class="price" id="price">
+                <div class="price__title-wrapper title-wrapper">
+                    <span class="price__title-line-left"></span>
+                    <h2 class="price__title title" data-i18n='price'>Price</h2>
+                    <span class="price__title-line-right"></span>
+                </div>
+                <div class="price__wrapper">
+                    <div class="price__item">
+                        <div class="price__item-title">Standard</div>
+                        <div class="price__item-cost">500 $</div>
+                        <div class="price__item-descr">
+                            <span data-i18n='price-description-1-span-1'>One location</span>
+                            <span data-i18n='price-description-1-span-2'>120 photos in color</span>
+                            <span data-i18n='price-description-1-span-3'>12 photos in retouch</span>
+                            <span data-i18n='price-description-1-span-4'>Readiness 2-3 weeks</span>
+                            <span data-i18n='price-description-1-span-5'>Make up, visage</span>
+                        </div>
+                        <button class="price__button button" data-i18n='order'>Order shooting</button>
+                    </div>
+                    <div class="price__item">
+                        <div class="price__item-title">Premium</div>
+                        <div class="price__item-cost">700 $</div>
+                        <div class="price__item-descr">
+                            <span data-i18n='price-description-2-span-1'>One or two locations</span>
+                            <span data-i18n='price-description-2-span-2'>200 photos in color</span>
+                            <span data-i18n='price-description-2-span-3'>20 photos in retouch</span>
+                            <span data-i18n='price-description-2-span-4'>Readiness 1-2 weeks</span>
+                            <span data-i18n='price-description-2-span-5'>Make up, visage</span>
+                        </div>
+                        <button class="price__button button" data-i18n='order'>Order shooting</button>
+                    </div>
+                    <div class="price__item">
+                        <div class="price__item-title">Gold</div>
+                        <div class="price__item-cost">1000 $</div>
+                        <div class="price__item-descr">
+                            <span data-i18n='price-description-3-span-1'>Three locations or more</span>
+                            <span data-i18n='price-description-3-span-2'>300 photos in color</span>
+                            <span data-i18n='price-description-3-span-3'>50 photos in retouch</span>
+                            <span data-i18n='price-description-3-span-4'>Readiness 1 week</span>
+                            <span data-i18n='price-description-3-span-5'>Make up, visage, hairstyle</span>
+                        </div>
+                        <button class="price__button button" data-i18n='order'>Order shooting</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts__wrapper">
+                    <h2 class="contacts__title" data-i18n='contact-me'>Contact me</h2>
+                    <input class="contacts__input" type="email" placeholder="E-mail" data-i18n='email'>
+                    <input class="contacts__input" type="tel" placeholder="Phone" data-i18n='phone'>
+                    <textarea class="contacts__textarea" placeholder="Message" data-i18n='message'></textarea>
+                    <button class="contacts__button button" data-i18n='send-message'>Send message</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__github">
+                    <svg class="footer__ico">
+                        <use xlink:href="assets/svg/sprite.svg#footer-ico"></use>
+                    </svg>
+                    <span class="footer__github-item">2022</span>
+                    <a class="footer__github-item github-link" href="https://github.com/ElenaKostenich">github</a>
+                </div>
+                <div class="footer__rs">
+                    <a href="https://rs.school/js-stage0/">Rolling Scopes School</a>
+                </div>
+                <ul class="footer__social">
+                    <li class="footer__social-el">
+                        <a class="footer__social-link" href="#">
+                            <svg class="footer__social-item">
+                                <use xlink:href="assets/svg/sprite.svg#inst"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__social-el">
+                        <a class="footer__social-link" href="#">
+                            <svg class="footer__social-item">
+                                <use xlink:href="assets/svg/sprite.svg#fb"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="footer__social-el">
+                        <a class="footer__social-link" href="#">
+                            <svg class="footer__social-item">
+                                <use xlink:href="assets/svg/sprite.svg#tw"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="footer__social-el">
+                        <a class="footer__social-link" href="#">
+                            <svg class="footer__social-item">
+                                <use xlink:href="assets/svg/sprite.svg#pinterest"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>
